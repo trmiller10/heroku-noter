@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ReplState" timestamp="1471374299894">{:repl-history {:ide [], :local [&quot;(require '[hiccup.core :as h])&quot; &quot;(h/html [:h1 \&quot;Hello Word\&quot;])&quot; &quot;(require '[clojure.java.jdbc :as sql])&quot; &quot;(sql/db-do-commands \&quot;postgresql://localhost:5432/something\&quot;\n                    (sql/create-table-ddl :testing [[:data :text]]))&quot; &quot;(sql/insert! \&quot;postgresql://localhost:5432/something\&quot;\n             :testing {:data \&quot;Hello world!\&quot;\n                       })&quot; &quot;(sql/query \&quot;postgresql://localhost:5432/something\&quot;\n           [\&quot;select * from testing\&quot;])&quot; &quot;(sql/db-do-commands \&quot;postgresql://localhost:5432/something\&quot;\n                    \&quot;drop table testing\&quot;)&quot; &quot;(routes\n  )&quot; &quot;(-main)&quot;], :remote []}}</component>
+</project>
